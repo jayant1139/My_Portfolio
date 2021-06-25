@@ -656,7 +656,7 @@ font-size: 40px;
     }
 
     .education {
-padding-top:30px;
+/*padding-top:30px;*/
   padding-left:200px;
     }
 
@@ -702,8 +702,8 @@ padding-top:30px;
 
     .skillimg {
       position: absolute;
-        width:600px;
-        top:10px;
+        width:550px;
+    
        left: 580px;
     }
 
