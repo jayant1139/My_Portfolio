@@ -607,8 +607,8 @@ margin-top:25px;
 
 @media(min-width:1440px) and (max-width:2559px) {
     .profilepic img {
-width: 350px;
-        height: 350px;
+width: 300px;
+        height: 300px;
         margin-top: 65px;
     }
 
@@ -622,7 +622,7 @@ font-size: 40px;
     }
 
     .resume {
-       margin-top: 400px;
+       margin-top: 100px;
         margin-left:890px;
         font-size:32px;
     }
@@ -635,61 +635,61 @@ font-size: 40px;
     .aboutimg,
     .aboutimg img {
         position: absolute;
- top: 130px;
+ top: 50px;
       left: 180px;
-        width: 520px;
+        width: 580px;
 
     }
 
     .aboutme .abouthead {
         padding-left:80px;
        
-        font-size:40px;
+        font-size:35px;
         /*    text-align: center;*/
     }
 
     .aboutme .bio {
-        font-size: 35px;
+        font-size: 30px;
       padding-left:80px;
         padding-right:80px;
 
     }
 
     .education {
-padding-top:50px;
+padding-top:30px;
   padding-left:200px;
     }
 
     .education .edu {
-        font-size:40px;
+        font-size:35px;
         line-height:100px;
     }
 
     .education .btech {
-        font-size: 35px;
+        font-size: 30px;
         line-height: 70px;
     }
 
     .education .xii {
-        font-size: 35px;
+        font-size: 30px;
         line-height: 70px;
 
     }
 
     .education .x {
-        font-size: 35px;
+        font-size: 30px;
         line-height: 70px;
 
     }
 
     .education .iit {
 
-        font-size: 35px;
+        font-size: 30px;
         line-height:70px;
     }
 
     .education .ssps1 {
-        font-size: 35px;
+        font-size: 30px;
         line-height:60px;
 
     }
@@ -702,9 +702,9 @@ padding-top:50px;
 
     .skillimg {
       position: absolute;
-        width:650px;
-        top: 150px;
-       left: 570px;
+        width:600px;
+        top:10px;
+       left: 580px;
     }
 
     .skill {
@@ -714,14 +714,14 @@ padding-top:50px;
 
     .skillhead {
        
-        font-size:40px;
+        font-size:35px;
      
     }
 
     .skilltext {
        
 
-        font-size:35px;
+        font-size:30px;
     }
 
 

@@ -55,8 +55,8 @@ body{
 */
 .profilepic img{
 /*    position: absolute;*/
-    width: 130px;
-    height: 130px;
+    width: 110px;
+  
   margin-top: 150px;
     border-radius:50%;
     background-color:#EDEDED;
