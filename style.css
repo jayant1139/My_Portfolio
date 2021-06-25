@@ -1,0 +1,239 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/**********Colours***************/
+:root{
+  --first-color:#134074;  
+    --second-color:#13315c;  
+    --third-color:#0B2545;  
+    --fourth-color:#8DA9C4;  
+    --fivth-color:#EEF4ED;  
+}
+
+/**********margin***************/
+
+
+/*************************/
+
+html{
+    scroll-behavior: smooth;
+  
+}
+body{
+    font-family:'Kiwi Maru', serif;
+}
+.section1{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+   align-items:center;
+     background-color: var(--fivth-color);
+}
+/*
+.blob{
+    position: absolute;
+    width: 16vw;
+    height: 20vh;
+   
+}
+*/
+/*
+.navbar{
+    position: absolute;
+    margin-left: 20rem;
+   
+}
+.navbar a{
+    font-size: 2.5rem;
+  font-family:'Kiwi Maru', serif;
+    padding-left: 2rem;
+}
+*/
+.profilepic img{
+/*    position: absolute;*/
+    width: 130px;
+    height: 130px;
+  margin-top: 150px;
+    border-radius:50%;
+    background-color:#EDEDED;
+    
+}
+.introtext{
+  font-family:'Kiwi Maru', serif;
+/*    position: absolute;*/
+   margin-top:15px;
+   
+    font-size:18px;
+}
+.introtext span{
+    color:#535efc;
+    font-size:20px;
+}
+.resume{
+/*    position: absolute;*/
+ margin-top:140px;
+ font-family:'Kiwi Maru', serif;
+    font-weight: bold;
+   font-size:13px;
+}
+.resume img{
+    width: 40px;
+    
+    padding-right:5px;
+}
+
+
+
+/************************about section*******************/
+.section2{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+
+   background-color:  var(--fourth-color);
+    
+}
+.section2 li{
+    font-family:'Kiwi Maru', serif;
+}
+.aboutme {
+/*    position: absolute;*/
+
+ padding-left: 8vw;
+    
+   
+    
+}
+.aboutme .abouthead{
+    padding-bottom:5px;
+     list-style: none;
+    font-weight: bold;
+    font-size:16px;
+/*       
+/*    text-align: center;*/
+    padding-top:18px;
+}
+.aboutme .bio{
+     font-size:10px;
+  
+     list-style: none;
+    padding-top:2px;
+    padding-right:12px;
+/*    text-align: center;*/
+} 
+.aboutimg,.aboutimg img{
+/*    position: absolute; */
+ width: 250px;
+    margin-top:5px;
+}
+
+.education{
+/*    position: absolute;*/
+/*
+    display: grid;
+    place-items:center;
+*/
+/*padding-top:0px;*/
+    margin-left: 30px;
+}
+.education .edu{
+    font-weight: bold;
+/*    position: absolute;*/
+    font-size:16px;
+    list-style: none;
+   font-family:'Kiwi Maru', serif;
+ line-height:38px;
+}
+.education .btech{
+    font-size:12px;
+    font-weight: bold;
+/*       position: absolute;*/
+    font-family:'Kiwi Maru', serif;
+  line-height:20px;
+}
+.education .iit{
+list-style: none;
+ font-size:12px;
+ line-height:20px;
+    font-family:'Kiwi Maru', serif;
+}
+.education .xii{
+ font-family:'Kiwi Maru', serif;
+   font-size:12px;
+    font-weight: bold;
+ line-height:20px;
+   
+}
+.education .ssps1{
+list-style: none;
+   font-size:12px;
+     line-height:20px;
+    font-family:'Kiwi Maru', serif;
+}
+.education .x{
+/*       position: absolute;*/
+  font-family:'Kiwi Maru', serif;
+    font-size:12px;
+      line-height:20px;
+   font-weight: bold;
+}
+.education .ssps2{
+/*       position: absolute;*/
+     font-family:'Kiwi Maru', serif;
+     list-style: none;
+  font-size:12px;
+     line-height:20px;
+
+   
+}
+
+/************************Skills section*******************/
+.section3{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+ font-family:'Kiwi Maru', serif;
+    
+    
+  display: flex;
+    flex-direction: column;
+align-items: center;
+/*     justify-content:space-between;*/
+    color:var(--fivth-color);
+   background-color:  var(--third-color);
+    
+}
+
+.skill{
+   padding-top: 25px;
+   
+}
+
+.skillhead{
+    list-style: none;
+    font-size:16px;
+ 
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+}
+.skilltext{
+   padding-top: 15px;
+  list-style:none;
+
+    font-size:12px;
+}
+.skillimg{
+ position: absolute;
+    width:250px;
+    top: 250px;
+   
+  
+}
+
