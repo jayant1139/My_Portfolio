@@ -656,36 +656,36 @@ font-size: 40px;
     }
 
     .education {
-/*padding-top:30px;*/
+padding-top:2px;
   padding-left:200px;
     }
 
     .education .edu {
         font-size:35px;
-        line-height:100px;
+        line-height:80px;
     }
 
     .education .btech {
         font-size: 30px;
-        line-height: 70px;
+        line-height: 60px;
     }
 
     .education .xii {
         font-size: 30px;
-        line-height: 70px;
+        line-height: 60px;
 
     }
 
     .education .x {
         font-size: 30px;
-        line-height: 70px;
+        line-height: 60px;
 
     }
 
     .education .iit {
 
         font-size: 30px;
-        line-height:70px;
+        line-height:60px;
     }
 
     .education .ssps1 {
@@ -702,9 +702,9 @@ font-size: 40px;
 
     .skillimg {
       position: absolute;
-        width:550px;
-    
-       left: 580px;
+        width:500px;
+    bottom: 50px;
+       left:600px;
     }
 
     .skill {
