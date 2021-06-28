@@ -17,16 +17,11 @@
         font-size: 23px;
     }
 
-    .resume {
-        font-size:18px;
-        margin-top: 250px;
+    .resume{
+        font-size: 45px;
+        margin-top: 100px;
     }
 
-    .resume img {
-        width: 40px;
-        padding-right: 6px;
-
-    }
 
     .aboutimg,
     .aboutimg img {
@@ -133,18 +128,10 @@
         font-size:25px;
     }
 
-    .resume {
-       margin-left:200px;
-        margin-top:200px;
-        font-size: 17px;
+    .resume img{
+      width: 150px;
     }
 
-    .resume img {
-        width:50px;
-    
-        padding-right:8px;
-
-    }
 
     .aboutimg,
     .aboutimg img {
@@ -256,16 +243,12 @@ margin-top: 30px;
         font-size:33px;
     }
 
-    .resume {
-       margin-left:300px;
-        margin-top:300px;
-        font-size: 25px;
-    }
+
 
     .resume img {
-        width:80px;
+        width:180px;
     
-        padding-right:18px;
+/*        padding-right:18px;*/
 
     }
 
@@ -358,9 +341,9 @@ margin-top: 30px;
 
 @media(min-width:1024px) and (max-width:1335px) {
     .profilepic img {
-        width: 400px;
+        width: 250px;
         
-  height: 400px;
+  height: 250px;
     
 
     }
@@ -376,16 +359,10 @@ margin-top: 30px;
         font-size: 43px;
     }
 
-    .resume {
-margin-top: 500px;
 
-        margin-left:450px;
-        font-size:32px;
-    }
 
     .resume img {
-       width:100px;
-        padding-right:10px;
+       width:180px;
     }
 
 
@@ -482,8 +459,8 @@ width: 550px;
 @media(min-width:1336px){
     .profilepic img {
 margin-top: 100px;
-        width:200px;
-        height:200px;
+        width:280px;
+        height:280px;
         
     }
 
@@ -497,16 +474,11 @@ margin-top:25px;
         font-size:33px;
     }
 
-    .resume {
-       margin-left:801px;
-        margin-top:180px;
-        font-size:18px;
-    }
-
+ 
     .resume img {
-        width:50px;
+        width:200px;
     
-        padding-right:10px;
+      
 
     }
 
@@ -607,8 +579,8 @@ margin-top:25px;
 
 @media(min-width:1440px) and (max-width:2559px) {
     .profilepic img {
-width: 300px;
-        height: 300px;
+width: 295px;
+        height: 295px;
         margin-top: 65px;
     }
 
@@ -621,22 +593,18 @@ font-size: 40px;
         font-size:43px;
     }
 
-    .resume {
-       margin-top: 100px;
-        margin-left:890px;
-        font-size:32px;
-    }
+ 
 
     .resume img {
-        width: 70px;
-        padding-right:10px;
+        width: 250px;
+  
     }
 
     .aboutimg,
     .aboutimg img {
         position: absolute;
  top: 50px;
-      left: 180px;
+      left: 120px;
         width: 580px;
 
     }
