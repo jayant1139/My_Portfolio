@@ -33,26 +33,7 @@ body{
    align-items:center;
      background-color: var(--fivth-color);
 }
-/*
-.blob{
-    position: absolute;
-    width: 16vw;
-    height: 20vh;
-   
-}
-*/
-/*
-.navbar{
-    position: absolute;
-    margin-left: 20rem;
-   
-}
-.navbar a{
-    font-size: 2.5rem;
-  font-family:'Kiwi Maru', serif;
-    padding-left: 2rem;
-}
-*/
+
 .profilepic img{
 /*    position: absolute;*/
     width: 110px;
@@ -73,18 +54,7 @@ body{
     color:#535efc;
     font-size:20px;
 }
-.resume{
-/*    position: absolute;*/
- margin-top:140px;
- font-family:'Kiwi Maru', serif;
-    font-weight: bold;
-   font-size:13px;
-}
-.resume img{
-    width: 40px;
-    
-    padding-right:5px;
-}
+
 
 
 
