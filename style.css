@@ -132,9 +132,9 @@ margin:20px;
 .aboutimg,.aboutimg img{
    position: absolute;
  width: 250px;
-bottom: 7%;
-left: 18%;
-right: auto;
+
+text-align: center;
+bottom: 10%;
 }
 
 .education{
