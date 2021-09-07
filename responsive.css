@@ -1,696 +1,313 @@
-/******************for small mobile phones****************/
-@media (min-width:375px) and (max-width:479px) {
-    .profilepic img{
+
+
+@media screen and (min-width:768px){
+    .profilepic{
+        margin-top: 50px;
+
+
+        height: 220px;
+        width: 220px;
+    }
+    .profile-contain{
+        background-color:#EDEDED;
+        /* width: 220px; */
+    }
+    .dp .profilepic img{
+     
+     width: 190px;
     
-    width:180px;
-
-    
-}
-
-    .introtext {
-
-        font-size: 20px;
-    }
-
-    .introtext span {
-
-        font-size: 23px;
-    }
-
-    .resume{
-        font-size: 45px;
-        margin-top: 100px;
-    }
-
-
-    .aboutimg,
-    .aboutimg img {
-/*        position: absolute;*/
-
-        margin:20px 0 0 0;
-        width:350px;
-
-    }
-
-    .aboutme .abouthead {
-        padding-left: 25px;
-        font-size:22px;
-        /*    text-align: center;*/
-    }
-
-    .aboutme .bio {
-        font-size:16px;
-        padding-left: 25px;
-
-    }
-
-    .education{
-        padding-left: 25px;
-    }
-
-    .education .edu {
-        font-size: 22px;
-        line-height:50px;
-    }
-
-    .education .btech {
-        font-size: 15px;
-        line-height:25px;
-    }
-
-    .education .xii {
-        font-size: 15px;
-        line-height:25px;
-
-    }
-
-    .education .x {
-        font-size: 15px;
-        line-height:25px;
-
-    }
-
-
-    .education .ssps1 {
-        font-size: 15px;
- line-height:25px;
-
-    }
-
-    .education .ssps2 {
-        font-size: 15px;
-         line-height:25px;
-    }
-
-    .education .iit {
-        font-size: 15px;
-         line-height:25px;
-    }
-
-.skillhead{
-
-    font-size:20px;
-
-}
-.skilltext{
- 
-
-    font-size:15px;
-}
-.skillimg{
-
-    width:300px;
-    top:350px;
-   
-  
-
-}
-}
-
-/******************for  mobile phones****************/
-@media (min-width:480px) and (max-width:767px) {
-
-
-    .profilepic img {
-
-        width:200px;
-        height:200px;
+       
         
     }
-
-    .introtext {
-
+    .introtext{
+       margin-top:35px;
+       
         font-size:22px;
     }
-
-    .introtext span {
-
+    .introtext span{
+   
         font-size:25px;
     }
-
+    
     .resume img{
-      width: 150px;
+        width:180px;
     }
-
-
-    .aboutimg,
-    .aboutimg img {
-    margin-left:50px;
-        width: 400px;
-        /*        height: 40vh;*/
-
-    }
-
-    .aboutme .abouthead {
-   padding-left:10px;
-        font-size:22px;
-        /*    text-align: center;*/
-    }
-
-    .aboutme .bio {
-        font-size: 18px;
-        padding-left:10px;
-
-
-    }
-
-    .education {
- padding-left:25px;
-
-    }
-
-    .education .edu {
-        font-size:22px;
-        line-height:50px;
-    }
-
-    .education .btech {
-        font-size: 18px;
-        line-height:30px;
-    }
-
-    .education .xii {
-        font-size: 18px;
-        line-height:30px;
-
-    }
-
-    .education .x {
-        font-size: 18px;
-        line-height:30px;
-
-    }
-
-
-    .education .ssps1 {
-        font-size: 18px;
-        line-height:30px;
-
-    }
-
-    .education .ssps2 {
-        font-size: 18px;
-        line-height:30px;
-    }
-
-    .education .iit {
-        font-size: 18px;
-        line-height:30px;
-    }
-
-    .skillimg {
     
-        width:380px;
-     
+    
+    
+    /************************about section*******************/
+ 
+    .section2 li{
+        font-family:'Kiwi Maru', serif;
     }
+    .aboutme {
+    
+    margin:30px;
 
-    .skill {
-  
+        
+       
+        
+    }
+    .aboutme .abouthead{
+        text-align: start; 
+        font-size:24px;
+        margin:10px;
+    }
+    .aboutme .bio{
+         font-size:18px;
+         text-align: start;
+        margin: 0px 20px 0px 20px;
+    
+    } 
+    .aboutimg,.aboutimg img{
+       position: absolute;
+     width: 350px;
+    bottom: 15%;
+   left: auto; 
+    right: 8%;
+    }
+    
+    .education{
+    text-align: start;
+    margin:0px  40px;
+    }
+    
+    .education .edu{
       
-    }
-
-    .skillhead {
-     
         font-size:22px;
+        
+        
+    }
+    .education .btech{
+        font-size:18px;
+        margin: 10px;
+      }
+    .education .iit{
+        margin: 10px;
+    list-style: none;
+     font-size:18px;
+     /* line-height:20px; */
+     list-style: none;
+    }
+    .education .xii{
+        margin: 10px;
+           font-size:18px;
+    
     
     }
-    .skilltext {
+    .education .ssps1{
+   
+    margin: 10px;
+       font-size:18px;
+         /* line-height:20px; */
       
-
+    }
+    .education .x{
+    /*       position: absolute;*/
+    margin: 10px;
+   
+        font-size:18px;
+          /* line-height:20px; */
+       font-weight: bold;
+    }
+    .education .ssps2{
+    /*       position: absolute;*/
+    margin: 10px;
+        
+      font-size:18px;
+         /* line-height:20px; */
+    
+       
+    }
+    
+    /************************Skills section*******************/
+    .section3{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+     font-family:'Kiwi Maru', serif;
+        align-items: flex-start;
+     /* justify-content: flex-end; */
+    /*     justify-content:space-between;*/
+        color:var(--fivth-color);
+       background-color:  var(--third-color);
+        
+    }
+    
+    .skill{
+       /* padding-top: 25px; */
+       margin: 45px;
+       
+    }
+    
+    .skillhead{
+        list-style: none;
+        font-size:24px;
+    text-align: start;
+    margin: 10px;
+    }
+    .skilltext{
+       margin: 10px;
+ 
+    text-align:start;
         font-size:18px;
     }
-
-
-}
-
-/******************for  tablets****************/
-
-@media(min-width:768px){
-    .profilepic img {
-
-        width:280px;
-        height:280px;
-        
-    }
-
-    .introtext {
-margin-top: 30px;
-        font-size:30px;
-    }
-
-    .introtext span {
-
-        font-size:33px;
-    }
-
-
-
-    .resume img {
-        width:180px;
-    
-/*        padding-right:18px;*/
-
-    }
-
-    .aboutimg,
-    .aboutimg img {
-    margin-left:50px;
-        width: 600px;
-        /*        height: 40vh;*/
-
-    }
-
-    .aboutme .abouthead {
-   padding-left:10px;
-        font-size:33px;
-        /*    text-align: center;*/
-    }
-
-    .aboutme .bio {
-        font-size:25px;
-        padding-left:10px;
-
-
-    }
-
-    .education {
- padding-left:40px;
-
-    }
-
-    .education .edu {
-        font-size:33px;
-        line-height:70px;
-    }
-
-    .education .btech {
-        font-size:25px;
-        line-height:45px;
-    }
-
-    .education .xii {
-        font-size:25px;
-        line-height:45px;
-
-    }
-
-    .education .x {
-        font-size:25px;
-        line-height:45px;
-
-    }
-
-
-    .education .ssps1 {
-        font-size:25px;
-        line-height:45px;
-
-    }
-
-    .education .ssps2 {
-        font-size:25px;
-        line-height:45px;
-    }
-
-    .education .iit {
-        font-size:25px;
-        line-height:45px;
-    }
-
-    .skillimg {
-    margin-top: 150px;
-        width:550px;
-     
-    }
-
-
-    .skillhead {
-     
-        font-size:33px;
-    
-    }
-    .skilltext {
-      
-
-        font-size:25px;
-    }
-
-
-}
-/******************for laptops****************/
-
-@media(min-width:1024px) and (max-width:1335px) {
-    .profilepic img {
-        width: 250px;
-        
-  height: 250px;
-    
-
-    }
-
-    .introtext {
-
-  margin-top: 50px;
-        font-size:40px;
-    }
-
-    .introtext span {
-
-        font-size: 43px;
-    }
-
-
-
-    .resume img {
-       width:180px;
-    }
-
-
-    .aboutimg,
-    .aboutimg img {
-    
-margin-left: 150px;
-     
-width: 550px;
-    }
-
-    .aboutme .abouthead {
-   padding-left:25px;
-        font-size:43px;
-        padding-top: 50px;
-        /*    text-align: center;*/
-    }
-
-    .aboutme .bio {
-        font-size:38px;
-     padding-left:25px;
-       padding-right:25px;
-
-    }
-
-    .education {
-
-        padding-left:80px;
-
-    }
-
-    .education .edu {
-        font-size:43px;
-        line-height:160px;
-    }
-
-    .education .btech {
-        font-size: 38px;
-        line-height:60px;
-    }
-
-    .education .xii {
-        font-size: 38px;
-        line-height:70px;
-
-    }
-
-    .education .x {
-        font-size: 38px;
-        line-height:70px;
-    }
-
-    .education .iit {
-
-        font-size: 38px;
-        line-height:70px;
-    }
-
-    .education .ssps1 {
-        font-size: 38px;
-        line-height:70px;
-
-    }
-
-    .education .ssps2 {
-        font-size: 38px;
-        line-height:70px;
-    }
-
-
-    .skillimg {
-    margin-top: 400px;
-        width:600px;
-    
-    }
-
-    .skill {
-      padding-top: 50px;
-   margin-right: 250px;
-    }
-
-    .skillhead {
-  padding-bottom: 50px;
-        font-size:43px;
-      
-    }
-
-    .skilltext {
-     
-        font-size:38px;
-    }
-}
-
-@media(min-width:1336px){
-    .profilepic img {
-margin-top: 100px;
-        width:280px;
-        height:280px;
-        
-    }
-
-    .introtext {
-margin-top:25px;
-        font-size:30px;
-    }
-
-    .introtext span {
-
-        font-size:33px;
-    }
-
+    .skillimg{
  
-    .resume img {
-        width:200px;
-    
+        width:320px;
+        bottom: 20%;
+        left: auto;
+        right: 10%;
+       
       
-
     }
-
-    .aboutimg,
-    .aboutimg img {
-        position: absolute;
-        margin-top: 120px;
-    margin-left:280px;
-        width: 550px;
-        /*        height: 40vh;*/
-
-    }
-
-    .aboutme .abouthead {
-   padding-left:10px;
-           padding-top:28px;
-        font-size:25px;
-        /*    text-align: center;*/
-    }
-
-    .aboutme .bio {
-        font-size:20px;
-        padding-left:10px;
- padding-right:55px;
-
-    }
-
-    .education {
- padding-left:83px;
-
-    }
-
-    .education .edu {
-        font-size:25px;
-        line-height:70px;
-    }
-
-    .education .btech {
-        font-size:20px;
-        line-height:45px;
-    }
-
-    .education .xii {
-        font-size:20px;
-        line-height:45px;
-
-    }
-
-    .education .x {
-        font-size:20px;
-        line-height:45px;
-
-    }
+    
+}
 
 
-    .education .ssps1 {
-        font-size:20px;
-        line-height:45px;
-
-    }
-
-    .education .ssps2 {
-        font-size:20px;
-        line-height:45px;
-    }
-
-    .education .iit {
-        font-size:20px;
-        line-height:45px;
-    }
-
-    .skillimg {
-        position: absolute;
-        top: 5px;
-    margin-left: 200px;
-        width:500px;
-     
-    }
-
-    .skill{
+@media screen and (min-width:1024px){
+    .profilepic{
         margin-top: 50px;
-        margin-right: 730px;
+
+
+        height: 220px;
+        width: 220px;
     }
-    .skillhead {
+    .profile-contain{
+        background-color:#EDEDED;
+        /* width: 220px; */
+    }
+    .dp .profilepic img{
      
+     width: 190px;
+    
+       
+        
+    }
+    .introtext{
+       margin-top:35px;
+       
         font-size:25px;
+    }
+    .introtext span{
+   
+        font-size:28px;
+    }
+    
+    .resume img{
+        width:200px;
+    }
+    
+    
+    
+    /************************about section*******************/
+ 
+    
+    .aboutme {
+    
+    margin:50px;
+
+        
+       
+        
+    }
+    .aboutme .abouthead{
+        text-align: start; 
+        font-size:28px;
+        margin:20px;
+    }
+    .aboutme .bio{
+         font-size:22px;
+         text-align: start;
+
+    
+    } 
+    .aboutimg,.aboutimg img{
+       position: absolute;
+     width: 450px;
+    bottom: 10%;
+   left: auto; 
+    right: 10%;
+    }
+    
+    .education{
+    text-align: start;
+    margin:0px  60px;
+    }
+    
+    .education .edu{
+      margin: 10px;
+        font-size:24px;
+        
+        
+    }
+    .education .btech{
+        font-size:22px;
+        margin: 10px;
+      }
+    .education .iit{
+        margin: 10px;
+    list-style: none;
+     font-size:22px;
+     /* line-height:20px; */
+     list-style: none;
+    }
+    .education .xii{
+        margin: 10px;
+           font-size:22px;
+    
     
     }
-    .skilltext {
+    .education .ssps1{
+   
+    margin: 10px;
+       font-size:22px;
+         /* line-height:20px; */
       
-
-        font-size:20px;
     }
-
-
-}
-/******************for 4k tv****************/
-
-@media(min-width:1440px) and (max-width:2559px) {
-    .profilepic img {
-width: 295px;
-        height: 295px;
-        margin-top: 65px;
+    .education .x{
+    /*       position: absolute;*/
+    margin: 10px;
+   
+        font-size:22px;
+          /* line-height:20px; */
+       font-weight: bold;
     }
-
-    .introtext {
-font-size: 40px;
+    .education .ssps2{
+    /*       position: absolute;*/
+    margin: 10px;
+        
+      font-size:22px;
+         /* line-height:20px; */
+    
+       
     }
-
-    .introtext span {
-
-        font-size:43px;
+    
+    /************************Skills section*******************/
+    
+    
+    .skill{
+    
+       margin: 50px;
+       
     }
-
+    
+    .skillhead{
+    
+        font-size:33px;
+    
+    }
+    .skilltext{
+        font-size:22px;
+    }
+    .skillimg{
  
-
-    .resume img {
-        width: 250px;
-  
-    }
-
-    .aboutimg,
-    .aboutimg img {
-        position: absolute;
- top: 50px;
-      left: 120px;
-        width: 580px;
-
-    }
-
-    .aboutme .abouthead {
-        padding-left:80px;
+        width:370px;
+        /* bottom: 10%; */
+        left: auto;
+        right: 10%;
        
-        font-size:35px;
-        /*    text-align: center;*/
+      
     }
-
-    .aboutme .bio {
-        font-size: 30px;
-      padding-left:80px;
-        padding-right:80px;
-
-    }
-
-    .education {
-padding-top:2px;
-  padding-left:200px;
-    }
-
-    .education .edu {
-        font-size:35px;
-        line-height:80px;
-    }
-
-    .education .btech {
-        font-size: 30px;
-        line-height: 60px;
-    }
-
-    .education .xii {
-        font-size: 30px;
-        line-height: 60px;
-
-    }
-
-    .education .x {
-        font-size: 30px;
-        line-height: 60px;
-
-    }
-
-    .education .iit {
-
-        font-size: 30px;
-        line-height:60px;
-    }
-
-    .education .ssps1 {
-        font-size: 30px;
-        line-height:60px;
-
-    }
-
-    .education .ssps2 {
-        font-size: 30px;
-        line-height:60px;
-    }
-
-
-    .skillimg {
-      position: absolute;
-        width:500px;
-    bottom: 50px;
-       left:600px;
-    }
-
-    .skill {
-   padding-right:202px;
-        padding-top: 50px;
-    }
-
-    .skillhead {
-       
-        font-size:35px;
-     
-    }
-
-    .skilltext {
-       
-
-        font-size:30px;
-    }
-
-
+    
 }
